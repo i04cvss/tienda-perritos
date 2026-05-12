@@ -133,7 +133,7 @@ app.get("/api/health", (req, res) => {
   res.json({ status: "ok", message: "Backend de tienda de perritos en ejecución." });
 });
 
-console.log("Pipeline CI/CD backend funcionandoo");
+console.log("Pipeline CI/CD backend funcionando");
 // Iniciar servidor
 app.listen(PORT, async () => {
   console.log(`Servidor backend escuchando en puerto ${PORT}`);
